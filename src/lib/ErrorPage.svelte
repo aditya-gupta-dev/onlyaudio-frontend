@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 <div class="err">
-    <div class="box">
+    <div class="box bg-slate-900">
         <h1>Network Error. Reload this site</h1>
     </div>
 </div>
