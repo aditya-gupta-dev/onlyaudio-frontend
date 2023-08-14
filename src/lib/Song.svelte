@@ -10,7 +10,7 @@
     async function load() {
         progress = "generating url...";
         const start = performance.now();
-        const res = await axios.get('https://onlyaudioapi.hypernova101.repl.co/audio', {
+        const res = await axios.get('http://localhost:3000/audio', {
             headers: {
                 'id' : song.id
             }
