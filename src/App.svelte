@@ -21,7 +21,7 @@
       perf = "Fetching...";
       
       const response = await axios.get<Array<Audio>>(
-        "https://onlyaudioapi.hypernova101.repl.co/video", {
+        "http://localhost:3000/video", {
           headers: {
             "q" : query
           }
