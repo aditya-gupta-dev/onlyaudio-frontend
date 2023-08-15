@@ -2,11 +2,9 @@
     import type { Audio } from "../data/Song";
     import { audioSrc } from "../Store";
     import axios from "axios";
-
     export let song: Audio;
     let progress = "";
     let url = "";
-
     async function load() {
         progress = "generating url...";
         const start = performance.now();
@@ -27,7 +25,6 @@
         audioSrc.set(url);
     };
 </script>
-
 <main>
     <div class="w-full" on:click={clicker}>  
         <div class="bg-slate-600 rounded-3xl shadow-2xl shadow-slate-900 flex flex-row m-4 hover:bg-slate-800">
