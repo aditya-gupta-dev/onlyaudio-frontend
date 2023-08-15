@@ -47,7 +47,7 @@
       {#each audios as audio}
         <Song song={audio}/>
       {/each}
-      <div class="h-screen flex flex-col justify-between">
+      <div class="h-screen flex flex-col justify-between bg-slate-500">
         <div class="fixed bottom-0 left-0 w-full bg-slate-900 text-black p-4 flex flex-col justify-between items-center">
           <p class="text-white">{perf}</p>
           <AudioPlayer url={$audioSrc}/>
@@ -59,4 +59,3 @@
       </div>
   {/if} 
 </main>
-
